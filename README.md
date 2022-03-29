@@ -4,7 +4,7 @@ This is a continuation of the work done in Mike Reed's Fall 2021 COMP 475 class 
 
 The purpose of this little project is to compile the C++ code written for the assignments into web assembly. This will allow for the code to run and be demonstrated in a browser environment. If things go plan, the code should run at near native speeds.
 
-## Scan Convertor
+## Scan Converter
 
 This code uses a special scan converter that is not the one taught in class. It is an expanded version of a concept that Professor Reed mentioned in the class. Instead of storing an array of edges, it uses a large array of points/dots to represent the outline of the shape needed. While this may be more memory intensive, it avoids the need to constantly resort the edges as well as being more friendly to multithreading.
 
